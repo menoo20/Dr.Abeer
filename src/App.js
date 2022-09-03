@@ -1,14 +1,16 @@
-import NavbarMenu from "./NavbarMenu";
+import NavbarMenu from "./components/NavbarMenu";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Unit from "./pages/Unit";
 import Container from "react-bootstrap/esm/Container";
 import Extras from "./pages/Extras";
+import Socialbar from "./components/parts/Socialbar";
 
 // import Routes
 function App() {
   return (
     <div className="App" dir="rtl">
+      <Socialbar/>
       <NavbarMenu />
       <Container>
         <Routes>
