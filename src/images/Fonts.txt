@@ -1,9 +1,0 @@
-Fonts used in this design:
-
-Font: Kanit
-Author: Cadson Demak
-Url: https://fonts.google.com/specimen/Kanit
-
-Font: Noto Sans JP
-Author: Google
-Url: https://fonts.google.com/specimen/Noto+Sans+JP
