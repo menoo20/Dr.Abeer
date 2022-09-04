@@ -8,14 +8,14 @@ const Home = () => {
     <Container>
       <header>
         <div className="row justify-content-lg-between justify-content-center align-items-center py-4">
-          <div className="col-9 col-lg-6 text-center">
+          <div className="col-10 col-sm-9 col-lg-6 text-center">
             <img
               className="img-fluid px-4"
               src={svg}
               alt="svg to help illustrat the brain psychology"
             />
           </div>
-          <div className="col-10 col-lg-6 text-center">
+          <div className="col-12 col-sm-10 col-lg-6 text-center">
             <h1 className="display-5">الصحة العقلية</h1>
             <Carousel3
               content1="الصحة النفسية هي حالة من الرفاه النفسي تمكّن الشخص من مواجهة ضغوط الحياة، وتحقيق إمكاناته، والتعلّم والعمل بشكل جيد، والمساهمة في مجتمعه المحلي"

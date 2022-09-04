@@ -5,6 +5,7 @@ import Unit from "./pages/Unit";
 import Container from "react-bootstrap/esm/Container";
 import Extras from "./pages/Extras";
 import Socialbar from "./components/parts/Socialbar";
+import Footer from "./components/parts/Footer";
 
 // import Routes
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/extras" element={<Extras/>} />
         </Routes>
       </Container>
+      <Footer/>
     </div>
   );
 }
