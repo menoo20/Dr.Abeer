@@ -18,15 +18,15 @@ const NavbarMenu = () => {
             </Link>
             <NavDropdown title="المحتوى" id="basic-nav-dropdown">
               <li>
-                <Link to="/unit1" class="dropdown-item">
+                <Link to="/unit1" className="dropdown-item">
                   الوحدة الأولى
                 </Link>
               </li>
               <li>
-                <hr class="dropdown-divider"></hr>
+                <hr className="dropdown-divider"></hr>
               </li>
               <li>
-                <Link to="/unit2" class="dropdown-item">
+                <Link to="/unit2" className="dropdown-item">
                   الوحدة الثانية
                 </Link>
               </li>

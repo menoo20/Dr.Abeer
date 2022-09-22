@@ -6,6 +6,7 @@ const Pagination = ({setPageNumber}) => {
   return (
     <Container>
       <div className="d-flex justify-content-center my-5 gap-3">
+        <Button onClick={() => setPageNumber(0)}>المقدمة</Button>
         <Button onClick={() => setPageNumber(1)}>1</Button>
         <Button onClick={() => setPageNumber(2)}>2</Button>
         <Button onClick={() => setPageNumber(3)}>3</Button>
