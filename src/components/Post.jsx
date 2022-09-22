@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./Post.scss";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
+import pdf from "../images/pdf.png"
 
 const Post = ({
   img,
@@ -12,15 +13,12 @@ const Post = ({
   ahdafM,
   ahdafW,
   strategies,
-  methods
+  methods,
 }) => {
   return (
     <div className="post p-5">
       <Container className="px-lg-5">
-        <h1
-          className="pb-5 text-center "
-          style={{ fontSize: "1.5rem" }}
-        >
+        <h1 className="pb-5 text-center " style={{ fontSize: "1.5rem" }}>
           الدرس {lNumber}{" "}
         </h1>
         <p className="lead fw-bold mb-3">الصف/ الثانى الإعدادى</p>
@@ -32,7 +30,9 @@ const Post = ({
             alt="lesson 1"
           ></img>
         </figure>
-        <h4 className="my-3" style={{"fontSize": "1.3rem"}}>المدركات الأساسية : -</h4>
+        <h4 className="my-3" style={{ fontSize: "1.3rem" }}>
+          المدركات الأساسية : -
+        </h4>
         <ul>
           {modrakat.map((modrak) => {
             return (
@@ -42,9 +42,13 @@ const Post = ({
             );
           })}
         </ul>
-        <h4 className="my-3" style={{"fontSize": "1.3rem"}}>الأهداف السلوكية :-</h4>
+        <h4 className="my-3" style={{ fontSize: "1.3rem" }}>
+          الأهداف السلوكية :-
+        </h4>
         <p> في نهاية هذا الدرس من المتوقع ان تكون التلميذة قادرة علي ان : -</p>
-        <h4 className="my-3" style={{"fontSize": "1.3rem"}}>االأهداف المعرفية : -</h4>
+        <h4 className="my-3" style={{ fontSize: "1.3rem" }}>
+          االأهداف المعرفية : -
+        </h4>
         <ul>
           {ahdafM.map((hadaf) => {
             return (
@@ -54,7 +58,9 @@ const Post = ({
             );
           })}
         </ul>
-        <h4 className="my-3" style={{"fontSize": "1.3rem"}}>االأهداف الوجدانية : -</h4>
+        <h4 className="my-3" style={{ fontSize: "1.3rem" }}>
+          االأهداف الوجدانية : -
+        </h4>
         <ul>
           {ahdafW.map((hadaf) => {
             return (
@@ -64,7 +70,9 @@ const Post = ({
             );
           })}
         </ul>
-        <h4 className="my-3" style={{"fontSize": "1.3rem"}}>استراتيجية التعليم المستخدمة : -</h4>
+        <h4 className="my-3" style={{ fontSize: "1.3rem" }}>
+          استراتيجية التعليم المستخدمة : -
+        </h4>
         <ul>
           {strategies.map((strategy) => {
             return (
@@ -74,7 +82,9 @@ const Post = ({
             );
           })}
         </ul>
-        <h4 className="my-3" style={{"fontSize": "1.3rem"}}>اساليب التعلم المستخدمة : -</h4>
+        <h4 className="my-3" style={{ fontSize: "1.3rem" }}>
+          اساليب التعلم المستخدمة : -
+        </h4>
         <ul>
           {methods.map((method) => {
             return (
@@ -84,6 +94,29 @@ const Post = ({
             );
           })}
         </ul>
+        <a
+          href="https://drive.google.com/file/d/1vfF3dUEzP0fy5w1akNB5T4x5cId3r1OP/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-decoration-none"
+        >
+          أقرأ المزيد...
+        </a>
+        <div className="text-center my-4">
+          <a
+            className="btn btn-lg text-center btn-dark d-inline-block  "
+            href="https://drive.google.com/u/0/uc?id=1vfF3dUEzP0fy5w1akNB5T4x5cId3r1OP&export=download"
+            role="button"
+            dir="ltr"
+          >
+            Download Pdf
+            <img 
+            className="img-fluid mx-2" 
+            src={pdf} 
+            alt="download pdf"
+            style={{"verticalAlign": "sub"}} />
+          </a>
+        </div>
       </Container>
     </div>
   );
