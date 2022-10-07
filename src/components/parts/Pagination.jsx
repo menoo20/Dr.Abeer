@@ -13,6 +13,7 @@ const Pagination = ({setPageNumber}) => {
         <Button onClick={() => setPageNumber(4)}>4</Button>
         <Button onClick={() => setPageNumber(5)}>5</Button>
         <Button onClick={() => setPageNumber(6)}>6</Button>
+        <Button onClick={() => setPageNumber(7)}>التقييم</Button>
       </div>
     </Container>
   );

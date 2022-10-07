@@ -1,0 +1,9 @@
+.post {
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.post .figure-caption {
+  font-size: 14px;
+}
+/*# sourceMappingURL=Post.css.map */

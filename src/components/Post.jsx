@@ -1,8 +1,6 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 import "./Post.scss";
 import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
 import pdf from "../images/pdf.png"
 
 const Post = ({
@@ -14,6 +12,8 @@ const Post = ({
   ahdafW,
   strategies,
   methods,
+  view,
+  download
 }) => {
   return (
     <div className="post p-5">
@@ -95,7 +95,7 @@ const Post = ({
           })}
         </ul>
         <a
-          href="https://drive.google.com/file/d/1vfF3dUEzP0fy5w1akNB5T4x5cId3r1OP/view?usp=sharing"
+          href={view}
           target="_blank"
           rel="noopener noreferrer"
           className="text-decoration-none"
@@ -105,7 +105,7 @@ const Post = ({
         <div className="text-center my-4">
           <a
             className="btn btn-lg text-center btn-dark d-inline-block  "
-            href="https://drive.google.com/u/0/uc?id=1vfF3dUEzP0fy5w1akNB5T4x5cId3r1OP&export=download"
+            href={download}
             role="button"
             dir="ltr"
           >
