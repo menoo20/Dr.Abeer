@@ -4,6 +4,8 @@ import Post from "../components/Post";
 import lesson1 from "../images/1.jpg";
 import lesson2 from "../images/2.jpg";
 import lesson3 from "../images/3.jpg";
+import lesson4 from "../images/10.jpg";
+import lesson5 from "../images/8.jpg";
 import intro from "../images/4.jpg";
 import { useState } from "react";
 import Pagination from "../components/parts/Pagination";
@@ -141,7 +143,7 @@ const Unit1 = () => {
       )}
       {pageNumber === 4 ? (
         <Post
-          img={lesson1}
+          img={lesson4}
           lNumber="الرابع/ بعض الاصناف المتكاملة ( البيتزا )"
           unitName="أسرة مفكرة"
           modrakat={[
@@ -181,7 +183,7 @@ const Unit1 = () => {
       )}
       {pageNumber === 5 ? (
         <Post
-          img={lesson2}
+          img={lesson5}
           lNumber="الخامس/ بعض الاصناف المتكاملة ( جلاش باللحمة المفرومة )"
           unitName="أسرة مفكرة"
           modrakat={[

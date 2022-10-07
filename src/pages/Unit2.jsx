@@ -4,10 +4,13 @@ import Post from "../components/Post";
 import { useState } from "react";
 import Pagination from "../components/parts/Pagination";
 import lesson1 from "../images/1.jpg";
-import lesson2 from "../images/2.jpg";
-import lesson3 from "../images/3.jpg";
+import lesson2 from "../images/11.jpg";
+import lesson3 from "../images/12.jpg";
+import lesson4 from "../images/6.jpg";
+import lesson5 from "../images/13.jpg";
+import lesson6 from "../images/9.jpg";
 import Intro2 from "../components/Intro2";
-import intro from "../images/4.jpg";
+import intro from "../images/5.jpg";
 import Test2 from "../components/Test2";
 const Unit2 = () => {
   const [pageNumber, setPageNumber] = useState(1);
@@ -131,7 +134,7 @@ const Unit2 = () => {
       )}
       {pageNumber === 4 ? (
         <Post
-          img={lesson1}
+          img={lesson4}
           lNumber="الرابع/ العناية بأثاث المسكن"
           unitName="أسرة متحابة"
           modrakat={[
@@ -172,7 +175,7 @@ const Unit2 = () => {
       )}
       {pageNumber === 5 ? (
         <Post
-          img={lesson2}
+          img={lesson5}
           lNumber="الخامس/ تجميل المسكن"
           unitName="أسرة متحابة"
           modrakat={[
@@ -211,7 +214,7 @@ const Unit2 = () => {
       )}
       {pageNumber === 6 ? (
         <Post
-          img={lesson3}
+          img={lesson6}
           lNumber="السادس/ تابع تجميل المسكن (تنفيذ قطعة لتجميل المسكن – تنفيذ مفرش) "
           unitName="أسرة متحابة"
           modrakat={[
@@ -245,7 +248,6 @@ const Unit2 = () => {
           ]}
           view="https://drive.google.com/file/d/1XPs-THkOP48ubyYzCUl0U_YQXnUWX3TO/view?usp=sharing"
           download="https://drive.google.com/u/0/uc?id=1XPs-THkOP48ubyYzCUl0U_YQXnUWX3TO&export=download"
-          kk
         />
       ) : (
         ""
