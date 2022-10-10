@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 const Pagination = ({setPageNumber}) => {
   return (
     <Container>
-      <div className="d-flex justify-content-center my-5 gap-3">
+      <div className="d-flex justify-content-center my-5 gap-3 flex-wrap">
         <Button onClick={() => setPageNumber(0)}>المقدمة</Button>
         <Button onClick={() => setPageNumber(1)}>1</Button>
         <Button onClick={() => setPageNumber(2)}>2</Button>

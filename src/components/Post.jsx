@@ -16,8 +16,8 @@ const Post = ({
   download
 }) => {
   return (
-    <div className="post p-5">
-      <Container className="px-lg-5">
+    <div className="post p-0 p-sm-5">
+      <Container className=" px-2 px-lg-5">
         <h1 className="pb-5 text-center " style={{ fontSize: "1.5rem" }}>
           الدرس {lNumber}{" "}
         </h1>

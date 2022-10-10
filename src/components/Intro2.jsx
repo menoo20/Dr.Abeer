@@ -3,8 +3,8 @@ import Container from "react-bootstrap/Container";
 
 const Intro2 = ({ lNumber, img }) => {
   return (
-    <div className="post p-5">
-      <Container className="px-lg-5">
+    <div className="post p-0 p-sm-5">
+      <Container className=" px-2 px-lg-5">
         <h1 className="text-center pb-4" style={{ fontSize: "1.5rem" }}>
           مقدمة الوحدة الثانية (أسرة متحابة){" "}
         </h1>
