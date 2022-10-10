@@ -9,7 +9,7 @@ const NavbarMenu = () => {
   return (
     <Navbar expand="lg">
       <Container>
-        <Link to="/" className="navbar-brand">الباحثة/هبة قطب</Link>
+        <Link to="/about" className="navbar-brand">الباحثة/عبير العكرمى</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

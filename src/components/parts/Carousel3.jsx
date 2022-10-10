@@ -42,11 +42,10 @@ function Carousel3(props){
       itemClass="carousel-item-padding-40-px"
       arrows={false}
       className='pt-4 pb-5'
-      
           >
-      <div className='px-5'>{props.content1}</div>
-      <div className='px-5'>{props.content2}</div>
-      <div className='px-5'>{props.content3}</div>
+      <div className='px-5' style={{fontSize:"15px"}}>{props.content1}</div>
+      <div className='px-5' style={{fontSize:"15px"}}>{props.content2}</div>
+      <div className='px-5' style={{fontSize:"15px"}}>{props.content3}</div>
       
     </Carousel>
   )

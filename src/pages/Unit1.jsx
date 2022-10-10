@@ -7,7 +7,7 @@ import lesson3 from "../images/3.jpg";
 import lesson4 from "../images/10.jpg";
 import lesson5 from "../images/8.jpg";
 import intro from "../images/4.jpg";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Pagination from "../components/parts/Pagination";
 import Intro from "../components/Intro";
 import Test1 from "../components/Test1";
@@ -15,6 +15,10 @@ import Test1 from "../components/Test1";
 const Unit1 = () => {
   const [pageNumber, setPageNumber] = useState(0);
 
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
   return (
     <div className="container">
       <UnitNavigation name="الأولى" />

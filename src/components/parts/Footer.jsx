@@ -51,27 +51,24 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-right col-md-4 col-sm-6">
-        <h2>
+        <h4>
           {" "}
-          Company<span> logo</span>
-        </h2>
+          Dr/Abeer<span> EL-Akramy</span>
+        </h4>
         <p className="menu">
      
           <Link to="/">الرئيسية<span className="mx-2">|</span></Link>
-          <Link to="/">
+          <Link to="/about">
             عن الباحثة<span className="mx-2">|</span>
           </Link>
-          <Link to="/">
+          <Link to="/unit1">
             المحتوى<span className="mx-2">|</span>
           </Link>
-          <Link to="/">
-            السيرة الذاتية<span className="mx-2">|</span>
-          </Link>
-          <Link to="/">
+          <Link to="/extras">
             معلومات إثرائية
           </Link>
         </p>
-        <p className="name"> Company Name &copy; 2022</p>
+        <p className="name"> Dr.Abeer AL-Akramy &copy; 2022</p>
       </div>
     </footer>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import UnitNavigation from "../components/UnitNavigation";
 import Post from "../components/Post";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Pagination from "../components/parts/Pagination";
 import lesson1 from "../images/1.jpg";
 import lesson2 from "../images/11.jpg";
@@ -12,8 +12,13 @@ import lesson6 from "../images/9.jpg";
 import Intro2 from "../components/Intro2";
 import intro from "../images/5.jpg";
 import Test2 from "../components/Test2";
+
 const Unit2 = () => {
   const [pageNumber, setPageNumber] = useState(0);
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
   return (
     <div className="container">
       <UnitNavigation name="الثانية" />
