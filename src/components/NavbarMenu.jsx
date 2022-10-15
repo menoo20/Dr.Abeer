@@ -3,13 +3,14 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
+import Avatar2 from "../images/avatar3.png"
 import "./NavbarMenu.scss";
 
 const NavbarMenu = () => {
   return (
     <Navbar expand="lg">
       <Container>
-        <Link to="/about" className="navbar-brand">الباحثة/عبير العكرمى</Link>
+        <Link to="/about" className="navbar-brand"><img src={Avatar2} alt="doctor/Abeer Alakramy"  className=" img-fluid d-inline-block align-text-center" width="60" height="60"></img>الباحثة/عبير العكرمى</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
