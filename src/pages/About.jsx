@@ -11,14 +11,14 @@ const About = () => {
     <Container>
       <header>
         <div className="row justify-content-lg-between justify-content-center align-items-center py-4">
-          <div className="col-10 col-sm-9 col-lg-6 text-center">
+          <div className="col-md-10 col-sm-12 col-lg-6 text-center">
             <img
               className="img-fluid px-4"
               src={Avatar1}
               alt="svg to help illustrat the brain psychology"
             />
           </div>
-          <div className="col-12 col-sm-10 col-lg-6 text-center">
+          <div className=" col-sm-12 col-lg-6 text-center">
             <h1 className="display-5">السيرة الذاتية</h1>
             <Carousel3
               content1="هو أحد التخصصات الدراسية التي ترتبط ارتباط وثيق بالحياة المنزلية، حيث يختص بمعالجة كافة الأمور المتعلقة بالمنزل بداية من الولادة وانتهاء بالشيخوخة، منها الأزياء، الصحة، الموارد المالية الشخصية، تصميم المنازل، وهو أكثر شيوعاً بين الفتيات بهدف إنشاء جيل من الفتيات يمتلكن قدرة كبيرة على الاستفادة من المواهب والمهارات المتعلقة بمجال تصميم الأزياء، ومجال الخياطة، ومجال الطبخ وغيرها من المجالات المختلفة"

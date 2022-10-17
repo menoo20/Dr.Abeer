@@ -10,7 +10,7 @@ const NavbarMenu = () => {
   return (
     <Navbar expand="lg">
       <Container>
-        <Link to="/about" className="navbar-brand"><img src={Avatar2} alt="doctor/Abeer Alakramy"  className=" img-fluid d-inline-block align-text-center" width="60" height="60"></img>الباحثة/عبير العكرمى</Link>
+        <Link to="/about" className="navbar-brand"><img src={Avatar2} alt="doctor/Abeer Alakramy"  className=" img-fluid d-inline-block align-text-center" width="60" height="60"></img>الباحثة/عبير محمد</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
